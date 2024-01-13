@@ -74,7 +74,8 @@ grid.addEventListener('mouseup', (e) => {
 });
 
 // Controles para Mobile
-grid.addEventListener('touchemove', (e) => {
+grid.addEventListener('touchmove', (e) => {
+    bool = true;
     if (bool) {
         e.target.style.backgroundColor = "black";
     }
